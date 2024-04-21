@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+   <!--   Custom button template  -->
+   <t t-name="crystalline_momo_pay.CustomButton" owl="1">
+       <button class="control-button btn btn-light rounded-0 fw-bolder"
+               t-on-click="() => this.click()">
+           <i role="img" aria-label="Custom Button" title="Custom Button"/>
+           Custom
+       </button>
+   </t>
+</templates>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="main_momo_menu" name="MTN UG" parent="point_of_sale.menu_point_root"/>
+
+    <record id="action_momo_transactions" model="ir.actions.act_window">
+        <field name="name">MTN Transactions</field>
+        <field name="res_model">momo.transaction</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_momo_credentials" model="ir.actions.act_window">
+        <field name="name">MTN Credentials</field>
+        <field name="res_model">momo.credentials</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_momo_payment_acquirers" model="ir.actions.act_window">
+        <field name="name">MTN Payment Acquirers</field>
+        <field name="res_model">momo.payment</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="submenu_transactions" name="Transactions" parent="main_momo_menu" 
+            action="action_momo_transactions"/>
+
+    <menuitem id="submenu_credentials" name="Credentials" parent="main_momo_menu"
+            action="action_momo_credentials"/> 
+
+    <menuitem id="submenu_payment_acquirers" name="Payment Acquirers" parent="main_momo_menu"
+              action="action_momo_payment_acquirers"/>
+
+</odoo>

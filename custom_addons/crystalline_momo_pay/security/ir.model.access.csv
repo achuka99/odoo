@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+crystalline_momo_pay.access_momo_credentials,access_momo_credentials,crystalline_momo_pay.model_momo_credentials,base.group_user,1,1,1,1
+crystalline_momo_pay.access_momo_transaction,access_momo_transaction,crystalline_momo_pay.model_momo_transaction,base.group_user,1,1,1,1
+crystalline_momo_pay.access_momo_payment,access_momo_payment,crystalline_momo_pay.model_momo_payment,base.group_user,1,1,1,1

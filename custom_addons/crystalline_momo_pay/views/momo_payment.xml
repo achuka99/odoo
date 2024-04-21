@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="momo_payment_form_view" model="ir.ui.view">
+        <field name="name">momo.payment.form</field>
+        <field name="model">momo.payment</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="provider"/>
+                    <field name="environment"/>
+                    <field name="momo_credentials_id"/>
+                </group>
+            </form>
+        </field>
+    </record>
+</odoo>

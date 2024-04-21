@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<record id="momo_transaction_tree_view" model="ir.ui.view">
+    <field name="name">momo.transaction.tree</field>
+    <field name="model">momo.transaction</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="created_on"/>
+            <field name="reference"/>
+            <field name="currency"/>
+            <field name="amount"/>
+            <field name="phone_number"/>
+            <field name="state"/>
+            <field name="momo_transaction_id"/>
+            <field name="x_reference_id"/>
+           
+        </tree>
+    </field>
+</record>
+</odoo>

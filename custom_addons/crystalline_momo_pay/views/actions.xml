@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_momo_transactions" model="ir.actions.act_window">
+        <field name="name">MTN Transactions</field>
+        <field name="res_model">momo.transaction</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_momo_credentials" model="ir.actions.act_window">
+        <field name="name">MTN Credentials</field>
+        <field name="res_model">momo.credentials</field>
+        <field name="view_mode">form</field>
+    </record>
+</odoo>
